@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        td {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+
+        .first-row {
+            background-color: #668f8f;
+            color: #ffffff;
+        }
+        .first-row:hover{
+            background-color: #f5f566;
+            color: black;
+        }
+
+        .second-row{
+            background-color: #f5f566;
+            color: black;
+        }
+        .second-row:hover{
+            background-color: #668f8f;
+            color: #ffffff;
+        }
+    </style>
+    <title>Таблиця за зразком</title>
+</head>
+<body>
+
+<h2>Таблиця</h2>
+
+
+<table>
+    <tbody>
+    <tr>
+        <td class="first-row" rowspan="2">Реброва</td>
+        <td class="first-row" colspan="2">Віолетта</td>
+        <td class="first-row">Сергіївна</td>
+        <td class="first-row"></td>
+    </tr>
+    <tr>
+        <td class="second-row" rowspan="2">Лаб2</td>
+        <td class="second-row" rowspan="2">Вар6</td>
+        <td class="second-row" rowspan="3">ІС-31</td>
+        <td class="second-row"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+
+<h1>Варіант 6:</h1>
+
+<div class="main-container">
+
+    <div class="phone-wrapper">
+        <h2>position</h2>
+        <div class="phone-body phone-position">
+            <div class="screen">
+                <span class="time">12:00</span>
+            </div>
+            <div class="keypad">
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="phone-wrapper">
+        <h2>transform</h2>
+        <div class="phone-body phone-transform">
+            <div class="screen">
+                <span class="time">12:00</span>
+            </div>
+            <div class="keypad">
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+                <div class="key"></div> <div class="key"></div> <div class="key"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
+
